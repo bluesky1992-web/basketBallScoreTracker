@@ -8,7 +8,7 @@ body {
 }
 
 .highlight {
-  border-bottom:4px solid red;
+  border-bottom: 4px solid red;
 }
 
 .container {
@@ -19,7 +19,9 @@ body {
   width: 80%;
   margin: auto;
   justify-content: space-around;
-  background-color: #20262e;
+  background-color: #506D84;
+  display: in;
+  border-radius: 20px;
 }
 
 .numBox1 {
@@ -43,8 +45,6 @@ body {
   border-radius: 5px;
   font-family: "Cursed Timer ULil";
   color: #cf0a0a;
-}
-.numBox2 {
   text-align: center;
   padding-top: 15px;
   font-size: 60px;
@@ -52,7 +52,7 @@ body {
 
 h3 {
   margin-left: 19px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 26px;
 }
 
@@ -60,9 +60,46 @@ button {
   border-radius: 4px;
   margin-top: 10px;
   background-color: inherit;
-  border: 1px solid #858383;
-  color: white;
-  font-family: Cursed Timer ULil;
+  border: 2px solid #181717;
+  color: rgb(0, 0, 0);
+  font-family: "Cursed Timer ULil", sans-serif;
   padding: 7px;
-  color: #858383;
+  
+}
+
+.newBut {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a.my-button {
+  background: linear-gradient(to right, #ca1919, #ff1f00);
+  background-color: #ca1919;
+  color: #fff;
+  font-family: Trebuchet MS;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: normal;
+  text-decoration: none;
+  padding: 14px 15px;
+  border: 0px solid #000;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.my-button span {
+  margin-right: 15px;
+  display: block;
+  width: 100px;
+  height: 29px;
+  white-space: nowrap;
+  text-align: center;
+}
+a.my-button:hover {
+  background: linear-gradient(to right, #d05454, #ff5651);
+  background-color: #d05454;
+}
+a.my-button:active {
+  transform: scale(0.95);
 }
