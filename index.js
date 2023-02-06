@@ -38,7 +38,7 @@ function leaderIndicator() {
   if (homeCounter > guestCounter) {
     homeCountOutput.classList.add("highlight");
   } else if (homeCounter < guestCounter) {
-    guestCounterOutput.classList.add("highlight"); 
+    guestCounterOutput.classList.add("highlight");
   } else {
     homeCountOutput.classList.remove("highlight");
     guestCounterOutput.classList.remove("highlight");
