@@ -4,7 +4,7 @@ let guestCounter = 0;
 
 const homeCountOutput = document.getElementById("homeCount");
 const guestCounterOutput = document.getElementById("guestCount");
-const newBut = document.getElementsById("my-Button1");
+
 
 function reset() {
   homeCountOutput.textContent = homeCounter;
